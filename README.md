@@ -1,5 +1,5 @@
 # hx_uniapp_img-downloader
-这是 HBuilerX 的插件， 使用环境为 uni-app。
+这是 HBuilerX 的插件， 使用环境为 uni-app。  
 将网络或项目中的图片下载到本地 兼容 h5 小程序 app。
 
   

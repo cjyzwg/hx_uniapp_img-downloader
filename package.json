@@ -1,0 +1,13 @@
+
+{
+    "name": "@xfl/hx_uniapp_img-downloader", 
+    "description": "使用环境为uniapp, 将网络或项目中的图片下载到本地 兼容 h5 小程序 app",
+    "version":  "1.1.0",
+    "author": "xfl",
+    "keywords": ["HBuilderX", "uniapp", "图片下载", "h5", "小程序", "app", "img", "image", "downloader"],
+    "files": [
+        "Readme.md",
+        "example_img.jpg",
+        "img-downloader.js"
+    ]    
+}

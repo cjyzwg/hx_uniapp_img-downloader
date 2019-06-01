@@ -19,15 +19,19 @@ npm安装: `npm install @xfl/hx_uniapp_img-downloader`
   
 ## 使用方法
   
-```
-import downloader from 'img-downloader';
-let promise = downloader.load(url, imgName);  
-promise.then(([err, res])=>{    
-    console.log(err, res);  // err 和 res 只会有一个存在，另一个为null  
+```javascript
+import downloader from 'img-downloader';     //导入
+
+let promise = downloader.load(url, imgName); //下载
+
+promise.then(([err, res])=>{                 //下载结果 
+    console.log(err, res);                   // err 和 res 只会有一个存在，另一个为null  
 });
 ```
   
 ## 效果
+[**示例页面**](http://raw.githack.com/xiafl/hx_uniapp_img-downloader/master/test_downloader/unpackage/dist/build/h5/index.html)
+   
 ![](example_img.jpg)
 
 
@@ -51,7 +55,7 @@ promise.then(([err, res])=>{
   
 ## 更新日志
   
-2019.6.1 v1.1.0  重构了代码、创建了 [示例页面](http://raw.githack.com/xiafl/hx_uniapp_img-downloader/master/test_downloader/unpackage/dist/build/h5/index.html) 、添加 [jsDoc](http://www.dba.cn/book/jsdoc/) 注释  
+2019.6.1 ***v1.1.0***  重构了代码、创建了 [示例页面](http://raw.githack.com/xiafl/hx_uniapp_img-downloader/master/test_downloader/unpackage/dist/build/h5/index.html) 、添加 [jsDoc](http://www.dba.cn/book/jsdoc/) 注释  
   
-2019.5.10 v1.0.0  创建本插件  
+2019.5.10 ***v1.0.0***  创建本插件  
   

@@ -63,6 +63,9 @@
     },
     "h5" : {
         "title" : "test_downloader",
-        "domain" : "http://raw.githack.com/xiafl/hx_uniapp_img-downloader/master/test_downloader/unpackage/dist/build/h5/"
+        "domain" : "http://raw.githack.com",
+        "router" : {
+            "base" : "/xiafl/hx_uniapp_img-downloader/master/test_downloader/unpackage/dist/build/h5/"
+        }
     }
 }

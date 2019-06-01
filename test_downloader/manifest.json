@@ -60,5 +60,9 @@
             "urlCheck" : false
         },
         "usingComponents" : true
+    },
+    "h5" : {
+        "title" : "test_downloader",
+        "domain" : "http://raw.githack.com/xiafl/hx_uniapp_img-downloader/master/test_downloader/unpackage/dist/build/h5/"
     }
 }
